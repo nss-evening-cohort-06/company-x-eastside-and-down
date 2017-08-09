@@ -5,7 +5,7 @@ var allProducts = [];
 		description:"",
 		price:"",
 		image:"",
-		used: true false
+		used: true 
 	};
 
 	var product2 = {
@@ -13,7 +13,7 @@ var allProducts = [];
 		description:"",
 		price:"",
 		image:"",
-		used: true false
+		used: true 
 	};
 
 	var product3 = {
@@ -21,7 +21,7 @@ var allProducts = [];
 		description:"",
 		price:"5pies/perClass",
 		image:"";
-		used: true false
+		used: true 
 	};
 
 	var product4 = {
@@ -29,7 +29,7 @@ var allProducts = [];
 		description:"",
 		price:"5pies/perClass",
 		image:"",
-		used: true false
+		used: true 
 
 	};
 
@@ -38,7 +38,7 @@ var allProducts = [];
 		description:"",
 		price:"5pies/perClass",
 		image:"",
-		used: true false
+		used: true 
 	};
 
 	var product6 = {
@@ -46,7 +46,7 @@ var allProducts = [];
 		description:"",
 		price:"5pies/perClass",
 		image:"",
-		used: true false
+		used: true 
 	};
 
 	var product7 = {
@@ -54,7 +54,7 @@ var allProducts = [];
 		description:"",
 		price:"5pies/perClass",
 		image:"",
-		used: true false
+		used: true 
 	};
 
 	var product8 = {
@@ -62,5 +62,5 @@ var allProducts = [];
 		description:"",
 		price:"5pies/perClass",
 		image:"",
-		used: true false
+		used: true 
 	};
