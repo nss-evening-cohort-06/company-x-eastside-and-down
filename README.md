@@ -85,3 +85,23 @@ The team's product page will be driven from JavaScript code. Decide on the names
 - [ ] Loop through the array of employees and print them to the page. 
 - [ ] The layout of the employee page should be a grid of cards. 3-wide, 4-wide, 5-wide, the teams must decide how many cards are on each row.
 
+COLORS
+
+-Overcast #9099a2
+-Dusty #96858f
+-Lavendar #6d7993--Font Header
+-Paper- #d5d5d5 -- Tiles
+
+
+
+FONTS
+
+Header- Mr. Dafoe
+H1/H2- Kavivnar
+P- Lato
+
+<!-- <link href="https://fonts.googleapis.com/css?family=Kavivanar|Lato|Mr+Dafoe" rel="stylesheet"> -->
+
+font-family: 'Kavivanar', cursive;
+font-family: 'Lato', sans-serif
+font-family: 'Mr Dafoe', cursive
