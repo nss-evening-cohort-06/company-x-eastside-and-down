@@ -1,0 +1,36 @@
+.employeeOne {
+	width: 600px;
+	border: 2px solid slategray;
+	margin: 1%;
+}
+
+.employeeImage {
+	max-width: 70%;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+/*This removed the spacing below the biographies*/
+
+.employeeBiography * {
+	margin: 0;
+	text-align: center; 
+	padding: 2%;	
+}
+
+.employeeName {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.employeePosition  {
+	text-align: center;
+	font-size: 1.5em;
+	padding: 2%;
+}
+
+#employee-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+}
