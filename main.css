@@ -136,32 +136,6 @@
 	border-bottom: solid;
 }
 
-
-/*This removed the spacing below the biographies*/
-
-.employeeBiography * {
-	margin: 0;
-	text-align: center; 
-	padding: 2%;	
-}
-
-.employeeName {
-	text-align: center;
-	text-transform: uppercase;
-}
-
-.employeePosition  {
-	text-align: center;
-	font-size: 1.5em;
-	padding: 2%;
-}
-
-#employee-cards {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center; 
-}
-
 /*-----------Product Page-----------*/
 
 .product {
@@ -232,7 +206,7 @@ a, p {
 /*------------------------------------*/
 
 .testimonials-heading {
-	background-color: #9099a2;
+	background-color: #96858f;
 	color: white;
 	font-family: 'Kavivanar';
 	margin: 5px;
@@ -286,6 +260,7 @@ a, p {
 }
 
 .testimonial-card p {
+	font-size: 15px;
 	padding: 20px;
 	font-family: 'Lato';
 	font-size: 15px;
