@@ -136,22 +136,6 @@
 	border-bottom: solid;
 }
 
-/*--------------Employee Page--------------*/
-
-
-
-.employeeOne {
-	width: 600px;
-  border: 2px solid slategray;
-	margin: 1%;
-}
-
-
-.employeeImage {
-	max-width: 70%;
-	border-top: 1px solid gray;
-	border-bottom: 1px solid gray;
-}
 
 /*This removed the spacing below the biographies*/
 
@@ -240,6 +224,9 @@ img.used-img {
 
 /* fonts & colors */
 
+a, p {
+	font-family: 'Lato', sans-serif
+}
 
 /*-------- TESTIMONIALS PAGE --------- */
 /*------------------------------------*/
@@ -250,6 +237,7 @@ img.used-img {
 	font-family: 'Kavivanar';
 	margin: 5px;
 	margin-left: 25%;
+	margin-top: 35px;
 	margin-bottom: 35px;
 	padding: 5px;
 	width: 50%;
@@ -271,7 +259,7 @@ img.used-img {
 	color: #6d7993;
 	margin: 20px;
 	padding: 0;
-	height: 675px;
+	height: 700px;
 	width: 300px;
 	flex-wrap: wrap;
 	position: relative;
@@ -299,13 +287,80 @@ img.used-img {
 
 .testimonial-card p {
 	padding: 20px;
-	font-family: 'Lato'
+	font-family: 'Lato';
+	font-size: 15px;
 	margin-bottom : 0;
+	margin-top: 0;
+  flex-wrap: wrap;
+}
+
+/*-------- EMPLOYEES PAGE --------- */
+/*------------------------------------*/
+
+.team-heading {
+	background-color: #9099a2;
+	color: white;
+	font-family: 'Kavivanar';
+	margin: 5px;
+	margin-left: 25%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	padding: 5px;
+	width: 50%;
+	text-align: center;
+}
+
+.team-heading h2 {
+	font-family: 'Kavivanar';
+	margin: 0;
+}
+
+#employeeCards {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.employee-card {
+	margin: 1%;
+	flex-direction: row;
+
+}
+
+.employee-card img {
+	margin-left: 20%;
+	margin-bottom: 5px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+
+}
+
+.employee-info {
+	border: 1px solid lightgrey;
+	width: 300px;
+	height: 400px;
+}
+
+.employee-name {
+	text-align: center;
+	background-color: #d5d5d5;
+}
+
+.employee-name h2 {
 	margin-top: 0;
 }
 
-a, p {
-	font-family: 'Lato', sans-serif
+.employee-position {
+	text-align: center;
 }
 
+.employee-position h3 {
+	margin-bottom: 2px;
+}
+
+.employee-bio p {
+	padding: 20px;
+	padding-top: 0;
+}
 
