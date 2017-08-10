@@ -138,9 +138,14 @@
 
 /*--------------Employee Page--------------*/
 
+
+
+
+/*---------Employee Page-----------*/
+
 .employeeOne {
 	width: 600px;
-  border: 2px solid slategray;
+  	border: 2px solid slategray;
 	margin: 1%;
 }
 
@@ -150,8 +155,6 @@
 	border-top: 1px solid gray;
 	border-bottom: 1px solid gray;
 }
-
-/*This removed the spacing below the biographies*/
 
 .employeeBiography * {
 	margin: 0;
@@ -170,7 +173,7 @@
 	padding: 2%;
 }
 
-#employee-cards {
+#employeeCards {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center; 
@@ -241,5 +244,72 @@ img.used-img {
 a, p {
 	font-family: 'Lato', sans-serif
 }
+
+
+/*-------- TESTIMONIALS PAGE --------- */
+/*------------------------------------*/
+
+.testimonials-heading {
+	background-color: #96858f;
+	color: white;
+	font-family: 'Kavivanar';
+	margin: 5px;
+	margin-left: 25%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	padding: 5px;
+	width: 50%;
+	text-align: center;
+}
+
+.testimonials-heading h2 {
+	font-family: 'Kavivanar';
+	margin: 0;
+}
+
+#testimonial-container {
+	display: flex;
+	justify-content: center;
+}
+
+.testimonial-card {
+	background-color: #d5d5d5;
+	color: #6d7993;
+	margin: 20px;
+	padding: 0;
+	height: 700px;
+	width: 300px;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.testimonial-student-info {
+	background-color: #96858f;
+	color: white;
+	font-family: 'Kavivanar';
+	height: 15%;
+	width: 90%;
+	padding: 15px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.testimonial-student-info h5, h4 {
+	margin: 0;
+}
+
+.testimonial-student-info h4 {
+	margin-bottom: 5px;
+}
+
+.testimonial-card p {
+	font-size: 15px;
+	padding: 20px;
+	font-family: 'Lato'
+	margin-bottom : 0;
+	margin-top: 0;
+}
+
 
 
