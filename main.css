@@ -1,7 +1,10 @@
 
+
+/*---------Employee Page-----------*/
+
 .employeeOne {
 	width: 600px;
-  border: 2px solid slategray;
+  	border: 2px solid slategray;
 	margin: 1%;
 }
 
@@ -11,8 +14,6 @@
 	border-top: 1px solid gray;
 	border-bottom: 1px solid gray;
 }
-
-/*This removed the spacing below the biographies*/
 
 .employeeBiography * {
 	margin: 0;
@@ -31,7 +32,7 @@
 	padding: 2%;
 }
 
-#employee-cards {
+#employeeCards {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center; 
