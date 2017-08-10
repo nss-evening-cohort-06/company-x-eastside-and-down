@@ -87,12 +87,12 @@
 	position: relative;
 }
 
-.sold-out {
+.used {
 	position: absolute;
 	top: 90px;
 }
 
-img.sold-out-img {
+img.used-img {
 	border: 0;
 	border-color: none;
 }
