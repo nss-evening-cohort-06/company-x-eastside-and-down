@@ -1,3 +1,142 @@
+/*--------------Nav-header--------------*/
+
+#nav-header {
+    display: flex;
+    align-items: baseline; 
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    margin: 0;
+    width: 100%;
+    box-shadow: 0 2px 0 rgba(93, 96, 99, .1);
+    background-color: white;
+}
+
+#nav {
+	padding-right: 12.5%;
+	padding-left: 12.5%;
+}
+
+#header {
+	padding-left: 12.5%;
+}
+
+#nav-header h1 {
+	margin: 0 auto 0 auto;
+	font-family: 'Mr Dafoe', cursive;
+}
+
+#nav-header ul {
+	padding: 0;
+	margin: auto;
+}
+
+#nav-header header {
+	color: 	#6d7993;
+}
+
+
+#nav-header li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 15px
+}
+
+#nav-header a, #nav-header a:link, #nav-header a:visited {
+	color: rgba(93, 96, 99, .3);
+	text-decoration: none;
+	text-transform: lowercase;
+}
+
+#nav-header a:hover {
+	color: #96858f; 
+	border-bottom: solid;
+}
+
+#nav-header a:active {
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: -5px; 
+	margin-right: -5px; 
+ }
+
+
+#nav-header a.selected {
+ 	color: #6d7993;
+	border-bottom: solid;
+	cursor: default;
+ }
+
+/*--------------FOOTER--------------*/
+
+ footer {
+    bottom: 10px;
+    max-height: 100px;
+    width: 100%;
+    text-align: center;
+    color: rgba(93, 96, 99, .8);
+
+ }
+
+/*--------------Homepage--------------*/
+
+#main-body {
+	display: flex;
+    /*align-items: baseline; */
+
+    flex-wrap: wrap; 
+    width: 100%;
+    max-height: 100%;
+    margin: 30px 0 30px 0;
+/*    box-shadow: 0 2px 0 rgba(93, 96, 99, .1);
+    background-color: white;*/
+
+}
+
+/*link boxes*/
+
+#link-container {
+	display: flex;
+    /*align-items: baseline; */
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    margin: 0 0 0 25px;
+    width: 40%;
+
+}
+
+.small-box {
+	width: 33%;
+	text-align: center;
+}
+
+
+.image-link {
+	display: block;
+}
+
+.image-link img{
+	display: block;
+	margin:auto;
+}
+
+
+/*large photo*/
+
+#main-image {
+	width: 100%
+}
+
+#main-image-container {
+	width: 40%;
+	padding-left: 10%;
+}
+
+.image {
+	color: #96858f; 
+	border-bottom: solid;
+}
+
+/*--------------Employee Page--------------*/
 
 .employeeOne {
 	width: 600px;
@@ -98,4 +237,9 @@ img.used-img {
 }
 
 /* fonts & colors */
+
+a, p {
+	font-family: 'Lato', sans-serif
+}
+
 
