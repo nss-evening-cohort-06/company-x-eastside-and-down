@@ -2,7 +2,7 @@ var allProducts = [];
 
 	var product1 = {
 		name:"Jack Goff",
-		description:"",
+		description:"Description goes here",
 		price:"",
 		image:"",
 		link:"",
@@ -11,7 +11,7 @@ var allProducts = [];
 
 	var product2 = {
 		name:"Professer X",
-		description:"",
+		description:"Description goes here",
 		price:"",
 		image:"",
 		link:"",
@@ -20,7 +20,7 @@ var allProducts = [];
 
 	var product3 = {
 		name:"Smart Teacher",
-		description:"",
+		description:"Description goes here",
 		price:"5pies/perClass",
 		image:"",
 		link:"",
@@ -29,7 +29,7 @@ var allProducts = [];
 
 	var product4 = {
 		name:"Funny Teacher",
-		description:"",
+		description:"Description goes here",
 		price:"5pies/perClass",
 		image:"",
 		link:"",
@@ -41,14 +41,14 @@ var allProducts = [];
 		name:"Old Teacher",
 		description:"",
 		price:"5pies/perClass",
-		image:"",
+		image:"Description goes here",
 		link:"",
 		used: true 
 	};
 
 	var product6 = {
 		name:"Crap Teacher",
-		description:"",
+		description:"Description goes here",
 		price:"5pies/perClass",
 		image:"",
 		link:"",
@@ -57,7 +57,7 @@ var allProducts = [];
 
 	var product7 = {
 		name:"Newbie Teacher",
-		description:"",
+		description:"Description goes here",
 		price:"5pies/perClass",
 		image:"",
 		link:"",
@@ -66,7 +66,7 @@ var allProducts = [];
 
 	var product8 = {
 		name:"Boring Teacher",
-		description:"",
+		description:"Description goes here",
 		price:"5pies/perClass",
 		image:"",
 		link:"",
@@ -107,7 +107,7 @@ function buildDomString(product) {
   domString +=    '<div class="title">'
   domString +=      '<h2>'+product.name+'</h2>'
   domString +=    '</div>'
-  domString +=    '<div class="image">'
+  domString +=    '<div class="teacher-image">'
   domString +=      '<a href="'+product.link+'"><img src="'+product.imagePath+'"></a>'
   domString +=    '</div>'
   domString +=    '<div class="description">'
@@ -116,7 +116,7 @@ function buildDomString(product) {
   domString +=    '</div>'
   if (product.used) {
     domString += '<div class="used">'
-    domString +=  '<img class="used-img" src="./images/soldOut.png" alt="used">'
+    domString +=  '<img class="used-img" src="./images/sale-red.png" alt="used">'
     domString += '</div>'
    } 
   domString += '</section>'
