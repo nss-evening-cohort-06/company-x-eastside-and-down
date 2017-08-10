@@ -241,16 +241,21 @@ img.used-img {
 
 /* fonts & colors */
 
+a, p {
+	font-family: 'Lato', sans-serif
+}
+
 
 /*-------- TESTIMONIALS PAGE --------- */
 /*------------------------------------*/
 
 .testimonials-heading {
-	background-color: #9099a2;
+	background-color: #96858f;
 	color: white;
 	font-family: 'Kavivanar';
 	margin: 5px;
 	margin-left: 25%;
+	margin-top: 35px;
 	margin-bottom: 35px;
 	padding: 5px;
 	width: 50%;
@@ -272,7 +277,7 @@ img.used-img {
 	color: #6d7993;
 	margin: 20px;
 	padding: 0;
-	height: 675px;
+	height: 700px;
 	width: 300px;
 	flex-wrap: wrap;
 	position: relative;
@@ -299,14 +304,12 @@ img.used-img {
 }
 
 .testimonial-card p {
+	font-size: 15px;
 	padding: 20px;
 	font-family: 'Lato'
 	margin-bottom : 0;
 	margin-top: 0;
 }
 
-a, p {
-	font-family: 'Lato', sans-serif
-}
 
 
