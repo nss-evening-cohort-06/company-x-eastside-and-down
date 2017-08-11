@@ -1,40 +1,35 @@
 var allEmployees= []; 
 
 var employee1 = {
-	image:"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/8/005/08c/372/120d823.jpg",
+	image: "https://scontent.fbna1-2.fna.fbcdn.net/v/t1.0-9/1916450_520325213294_4260991_n.jpg?oh=304386b31598ee6d095decdcad0d69d3&oe=59F48F72",
+	imageAlt: "Ronnie",
+	name: "Ronnie Hickman",
+	position: "Assistant to the Regional Manager",
+	bio: "Ronnie started his management career at a small paper company, but decided that education was where he wanted to be. He uses the skills he learned for the great Michael Scott to bring amazing educators your way."
+};
+
+var employee2 = {
+  image: "https://media.creativemornings.com/uploads/user/avatar/128994/me.jpg",
+	imageAlt: "Gina",
+	name: "Gina Antonini",
+	position: "Touch Quality Control",
+	bio: "Gina began her journey into world of touch quality back when she was in her early 20's. She was touched by a teacher long ago and knew that it was her destiny. She spent many years travelling around the world analyzing touch before she made the transition into educational touch."
+};
+
+var employee3 = {
+  image:"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/8/005/08c/372/120d823.jpg",
 	imageAlt: "Amber", 
 	name: "Amber Stuart", 
 	position: "Janitorial Engineer", 
 	bio: "After serving some time in Vietnam, Amber realized that education was her true passion. She attended the Academy of Janitorial Education and got her Masters in Custodial Arts. She now dedicates her time to making sure the facilites are as clean as can be."
 };
 
-var employee2 = {
-  image: "img",
-	imageAlt: "Gina",
-	name: "Gina Antonini",
-	position: "Touch Quality Control",
-	bio: "ahh"
-};
-
-var employee3 = {
-  image: "",
-	imageAlt: "Ronnie",
-	name: "Ronnie Hickman",
-	position: "ahh",
-	bio: "ahh"
-};
-
 allEmployees.push(employee1);
 allEmployees.push(employee2);
 allEmployees.push(employee3);
 
-
-allEmployees.push({image:"https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAslAAAAJDQ3MTk4NTlhLWYyMmUtNDA2ZS1hMmVhLTNjNTNjOGY4NjlkOQ.jpg", imageAlt: "Gib", name: "Gib Bowden", position: "sdjflkdj", bio: "alsdjlskjf;alsdkj"});
+allEmployees.push({image:"https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAslAAAAJDQ3MTk4NTlhLWYyMmUtNDA2ZS1hMmVhLTNjNTNjOGY4NjlkOQ.jpg", imageAlt: "Gib", name: "Gib Bowden", position: "Chief Inspiration Officer", bio: "Teachers Touch brought in Gib as CIO after a company revamp in 1992. Gib spent 5 years as founder of the start up, 'Rent-A-Granny', that was sold for $500,000. Gib brings in new ways of touching students and is an inspriration to the company."});
 allEmployees.push({image: "http://photovide.com/wp-content/uploads/2016/09/zoo-portraits-animals-dressed-like-humans-20.jpg", imageAlt: "Mr. Sloth", name: "Mr. Sloth ", position: "CEO", bio: "Mr. Sloth started off as a humble wild sloth, but after graduating from Harvard and later recieving his graduate degree at Yale, he was determined to provide quality educators to students across the US."});
-
-
-
-// console.log(allEmployees);
 
 var employeesContainer = document.getElementById("employeeCards");
 
@@ -63,5 +58,5 @@ employeeString +=	'</section>';
 employeesContainer.innerHTML += employeeString;
 }
 
-//ahhhh
+
 
