@@ -1,76 +1,77 @@
 var allProducts = [];
 
 	var product1 = {
-		name:"Jack Goff",
-		description:"",
-		price:"5pies/perClass",
-		image:"",
-		link:"",
+
+		name:"Zoe",
+		description:"Description goes here",
+		price:"4",
+		imagePath:"./images/zoe.jpg",
+		link:"./images/zoe.jpg",
 		used: true 
 	};
 
 	var product2 = {
-		name:"Professer X",
-		description:"",
-		price:"5pies/perClass",
-		image:"",
-		link:"",
+		name:"Lauren",
+		description:"Description goes here",
+		price:"10",
+		imagePath:"./images/lauren.jpg",
+		link:"./images/lauren.jpg",
 		used: true 
 	};
 
 	var product3 = {
-		name:"Smart Teacher",
-		description:"",
-		price:"5pies/perClass",
-		image:"",
-		link:"",
+		name:"Callan",
+		description:"Description goes here",
+		price:"10",
+		imagePath:"./images/callan.jpg",
+		link:"./images/callan.jpg",
 		used: true 
 	};
 
 	var product4 = {
-		name:"Funny Teacher",
-		description:"",
-		price:"5pies/perClass",
-		image:"",
-		link:"",
-		used: true 
+		name:"Creepy Teacher",
+		description:"Description goes here",
+		price:"100",
+		imagePath:"./images/stock-headshot1.jpg",
+		link:"./images/stock-headshot1.jpg",
+		used: false 
 
 	};
 
 	var product5 = {
 		name:"Old Teacher",
 		description:"",
-		price:"5pies/perClass",
-		image:"",
-		link:"",
-		used: true 
+		price:"200",
+		imagePath:"./images/OldMan.jpg",
+		link:"./images/OldMan.jpg",
+		used: false 
 	};
 
 	var product6 = {
-		name:"Crap Teacher",
-		description:"",
-		price:"5pies/perClass",
-		image:"",
-		link:"",
-		used: true 
+		name:"Funny Teacher",
+		description:"Description goes here",
+		price:"200",
+		imagePath:"./images/katW.jpeg",
+		link:"./images/katW",
+		used: false 
 	};
 
 	var product7 = {
 		name:"Newbie Teacher",
-		description:"",
+		description:"Description goes here",
 		price:"5pies/perClass",
-		image:"",
+		imagePath:"./images/baby.jpg",
 		link:"",
-		used: true 
+		used: false 
 	};
 
 	var product8 = {
 		name:"Boring Teacher",
-		description:"",
+		description:"Description goes here",
 		price:"5pies/perClass",
-		image:"",
-		link:"",
-		used: true 
+		imagePath:"./images/benStein.jpg",
+		link:"15",
+		used: false 
 	};
 
 
@@ -107,7 +108,7 @@ function buildDomString(product) {
   domString +=    '<div class="title">'
   domString +=      '<h2>'+product.name+'</h2>'
   domString +=    '</div>'
-  domString +=    '<div class="image">'
+  domString +=    '<div class="teacher-image">'
   domString +=      '<a href="'+product.link+'"><img src="'+product.imagePath+'"></a>'
   domString +=    '</div>'
   domString +=    '<div class="description">'
@@ -116,7 +117,7 @@ function buildDomString(product) {
   domString +=    '</div>'
   if (product.used) {
     domString += '<div class="used">'
-    domString +=  '<img class="used-img" src="./images/soldOut.png" alt="used">'
+    domString +=  '<img class="used-img" src="./images/sale-red.png" alt="used">'
     domString += '</div>'
    } 
   domString += '</section>'
