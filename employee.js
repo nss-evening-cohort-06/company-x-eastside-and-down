@@ -28,8 +28,20 @@ allEmployees.push(employee1);
 allEmployees.push(employee2);
 allEmployees.push(employee3);
 
-allEmployees.push({image:"https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAslAAAAJDQ3MTk4NTlhLWYyMmUtNDA2ZS1hMmVhLTNjNTNjOGY4NjlkOQ.jpg", imageAlt: "Gib", name: "Gib Bowden", position: "Chief Inspiration Officer", bio: "Teachers Touch brought in Gib as CIO after a company revamp in 1992. Gib spent 5 years as founder of the start up, 'Rent-A-Granny', that was sold for $500,000. Gib brings in new ways of touching students and is an inspriration to the company."});
-allEmployees.push({image: "http://photovide.com/wp-content/uploads/2016/09/zoo-portraits-animals-dressed-like-humans-20.jpg", imageAlt: "Mr. Sloth", name: "Mr. Sloth ", position: "CEO", bio: "Mr. Sloth started off as a humble wild sloth, but after graduating from Harvard and later recieving his graduate degree at Yale, he was determined to provide quality educators to students across the US."});
+function createEmployee(image, imageAlt, name, position, bio) {
+	var newEmployee = {
+		image: image,
+		imageAlt: imageAlt,
+		name: name,
+		position: position,
+		bio: bio
+	}
+	return allEmployees.push(newEmployee);
+};
+
+createEmployee("https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAslAAAAJDQ3MTk4NTlhLWYyMmUtNDA2ZS1hMmVhLTNjNTNjOGY4NjlkOQ.jpg", "Gib", "Gib Bowden", "Chief Inspiration Officer", "Teachers Touch brought in Gib as CIO after a company revamp in 1992. Gib spent 5 years as founder of the start up, 'Rent-A-Granny', that was sold for $500,000. Gib brings in new ways of touching students and is an inspriration to the company.");
+createEmployee("http://photovide.com/wp-content/uploads/2016/09/zoo-portraits-animals-dressed-like-humans-20.jpg", "Mr. Sloth", "Mr. Sloth", "CEO", "Mr. Sloth started off as a humble wild sloth, but after graduating from Harvard and later recieving his graduate degree at Yale, he was determined to provide quality educators to students across the US.");
+
 
 var employeesContainer = document.getElementById("employeeCards");
 
