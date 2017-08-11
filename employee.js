@@ -41,7 +41,7 @@ function createEmployee(image, imageAlt, name, position, bio) {
 
 createEmployee("https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAslAAAAJDQ3MTk4NTlhLWYyMmUtNDA2ZS1hMmVhLTNjNTNjOGY4NjlkOQ.jpg", "Gib", "Gib Bowden", "Chief Inspiration Officer", "Teachers Touch brought in Gib as CIO after a company revamp in 1992. Gib spent 5 years as founder of the start up, 'Rent-A-Granny', that was sold for $500,000. Gib brings in new ways of touching students and is an inspriration to the company.");
 createEmployee("http://photovide.com/wp-content/uploads/2016/09/zoo-portraits-animals-dressed-like-humans-20.jpg", "Mr. Sloth", "Mr. Sloth", "CEO", "Mr. Sloth started off as a humble wild sloth, but after graduating from Harvard and later recieving his graduate degree at Yale, he was determined to provide quality educators to students across the US.");
-
+createEmployee("https://i.pinimg.com/736x/e6/92/25/e6922593ff85d3931bb6bd31e9370d8d--animal-heads-animal-masks.jpg", "Devin", "Devin Bacon", "CTO", "Devin's background is a mystery to us all, but he's one hell of a tech wiz!!");
 
 var employeesContainer = document.getElementById("employeeCards");
 
