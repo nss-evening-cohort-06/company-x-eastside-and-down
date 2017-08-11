@@ -322,6 +322,22 @@ a, p {
 	background-color: #d5d5d5;
 }
 
+
+#aboutTitle {
+	text-align: center;
+}
+
+#aboutTitle h1 {
+	font-size: 75px;
+}
+
+#about-contact {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
 .employee-name h2 {
 	margin-top: 0;
 }

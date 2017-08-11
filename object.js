@@ -3,7 +3,7 @@ var allProducts = [];
 	var product1 = {
 		name:"Jack Goff",
 		description:"",
-		price:"",
+		price:"5pies/perClass",
 		image:"",
 		link:"",
 		used: true 
@@ -12,7 +12,7 @@ var allProducts = [];
 	var product2 = {
 		name:"Professer X",
 		description:"",
-		price:"",
+		price:"5pies/perClass",
 		image:"",
 		link:"",
 		used: true 
