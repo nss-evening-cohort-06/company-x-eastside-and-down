@@ -1,76 +1,76 @@
 var allProducts = [];
 
 	var product1 = {
-		name:"Jack Goff",
+		name:"Zoe",
 		description:"Description goes here",
-		price:"",
-		image:"",
-		link:"",
+		price:"4",
+		imagePath:"./images/zoe.jpg",
+		link:"./images/zoe.jpg",
 		used: true 
 	};
 
 	var product2 = {
-		name:"Professer X",
+		name:"Lauren",
 		description:"Description goes here",
-		price:"",
-		image:"",
-		link:"",
+		price:"10",
+		imagePath:"./images/lauren.jpg",
+		link:"./images/lauren.jpg",
 		used: true 
 	};
 
 	var product3 = {
-		name:"Smart Teacher",
+		name:"Callan",
 		description:"Description goes here",
-		price:"5pies/perClass",
-		image:"",
-		link:"",
+		price:"10",
+		imagePath:"./images/callan.jpg",
+		link:"./images/callan.jpg",
 		used: true 
 	};
 
 	var product4 = {
-		name:"Funny Teacher",
+		name:"Creepy Teacher",
 		description:"Description goes here",
-		price:"5pies/perClass",
-		image:"",
-		link:"",
-		used: true 
+		price:"100",
+		imagePath:"./images/stock-headshot1.jpg",
+		link:"./images/stock-headshot1.jpg",
+		used: false 
 
 	};
 
 	var product5 = {
 		name:"Old Teacher",
 		description:"",
-		price:"5pies/perClass",
-		image:"Description goes here",
-		link:"",
-		used: true 
+		price:"200",
+		imagePath:"./images/OldMan.jpg",
+		link:"./images/OldMan.jpg",
+		used: false 
 	};
 
 	var product6 = {
-		name:"Crap Teacher",
+		name:"Funny Teacher",
 		description:"Description goes here",
-		price:"5pies/perClass",
-		image:"",
-		link:"",
-		used: true 
+		price:"200",
+		imagePath:"./images/katW.jpeg",
+		link:"./images/katW",
+		used: false 
 	};
 
 	var product7 = {
 		name:"Newbie Teacher",
 		description:"Description goes here",
 		price:"5pies/perClass",
-		image:"",
+		imagePath:"./images/baby.jpg",
 		link:"",
-		used: true 
+		used: false 
 	};
 
 	var product8 = {
 		name:"Boring Teacher",
 		description:"Description goes here",
 		price:"5pies/perClass",
-		image:"",
-		link:"",
-		used: true 
+		imagePath:"./images/benStein.jpg",
+		link:"15",
+		used: false 
 	};
 
 

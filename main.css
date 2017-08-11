@@ -219,8 +219,27 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+
 }
 
+section.product{
+	border-radius: 5%;
+	background-color: #d5d5d5;
+	border-style: none;
+}
+
+
+/* teacher images */
+
+.teacher-image {
+	margin-left: 23%;
+}
+
+.teacher-image img  {
+	width: 72%;
+	height: 213px;
+	border-radius: 25%;
+}
 
 /* used image */
 
