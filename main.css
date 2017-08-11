@@ -374,3 +374,47 @@ a, p {
 	padding-top: 0;
 }
 
+
+
+/*-------------Blog Page------------*/
+
+.ourBlog {
+	font-family: 'Kavivanar';
+	margin: 3%;
+	text-align: center;
+}
+
+#blogsCards {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.blogSection img {
+	width: 80%;
+	height: 80%;
+
+}
+
+.blogSection {
+	max-width: 300px;
+	border: 2px solid slategray;
+	margin: 2%;
+	padding: 2%;
+}
+
+
+.blog-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+}
+
+.blog-container {
+	background-color: white;
+	background-size: 500px;
+	background-position: center center;
+	margin: 19% 0%;
+}
+
