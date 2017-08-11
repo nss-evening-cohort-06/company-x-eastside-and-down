@@ -1,6 +1,7 @@
 var allProducts = [];
 
 	var product1 = {
+
 		name:"Zoe",
 		description:"Description goes here",
 		price:"4",
