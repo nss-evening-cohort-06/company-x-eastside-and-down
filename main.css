@@ -309,4 +309,19 @@ a, p {
 	font-family: 'Lato', sans-serif
 }
 
+#aboutTitle {
+	text-align: center;
+}
+
+#aboutTitle h1 {
+	font-size: 75px;
+}
+
+#about-contact {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
 
