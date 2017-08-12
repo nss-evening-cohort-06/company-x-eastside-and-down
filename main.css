@@ -439,47 +439,6 @@ a, p {
 	border-top-left-radius: 10px;
 }
 
-/*-------- ABOUT PAGE --------------- */
-/*------------------------------------*/
-
-#aboutTitle {
-	text-align: center;
-}
-
-#aboutTitle h1 {
-	font-size: 75px;
-}
-
-#about-contact {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-#aboutInfo {
-	width: 45%;
-	background-color: #96858f;
-	color: white;
-	border-radius: 5%;
-}
-#aboutInfo:hover {
-	font-weight: bold;
-}
-#contactInfo:hover {
-	font-weight: bold;
-}
-#contactInfo {
-	background-color: #96858f;
-	color: white;
-	border-radius: 5%;
-
-}
-
-#about-contact h3 {
-	align-items: center;
-}
-
 .employee-name h2 {
 	margin-top: 0;
 }
@@ -495,6 +454,64 @@ a, p {
 .employee-bio p {
 	padding: 20px;
 	padding-top: 0;
+}
+
+/*-------- ABOUT PAGE --------------- */
+/*------------------------------------*/
+
+#aboutTitle {
+	text-align: center;
+}
+
+#aboutTitle h1 {
+	font-size: 75px;
+}
+
+#about-contact {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.about-box {
+	flex-direction: row;
+	width: 400px;
+	height: 250px;
+	margin: 30px;
+	padding: 30px;
+}
+
+.about-box h3 {
+	text-align: center;
+}
+
+#contactInfo p {
+	text-align: center;
+}
+
+#aboutInfo {
+	background-color: #96858f;
+	color: white;
+	border-radius: 5%;
+}
+
+#aboutInfo:hover {
+	font-weight: bold;
+}
+
+#contactInfo:hover {
+	font-weight: bold;
+}
+
+#contactInfo {
+	background-color: #96858f;
+	color: white;
+	border-radius: 5%;
+}
+
+#about-contact h3 {
+	align-items: center;
+	font-family: 'Kavivanar'
 }
 
 .aboutme-header {
