@@ -447,9 +447,21 @@ a, p {
 /*-------------Blog Page------------*/
 
 .ourBlog {
+	background-color: #96858f;
+	color: white;
 	font-family: 'Kavivanar';
-	margin: 3%;
+	margin: 5px;
+	margin-left: 25%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	padding: 5px;
+	width: 50%;
 	text-align: center;
+}
+
+.ourBlog h2 {
+	font-family: 'Kavivanar';
+	margin: 0;
 }
 
 #blogsCards {
@@ -469,7 +481,8 @@ a, p {
 
 .blogSection {
 	max-width: 80%;
-	border: 2px solid slategray;
+	border: .5px solid slategray;
+	box-shadow: 4px 8px 8px 3px #888888;
 	margin: 2%;
 	padding: 2%;
 	border-radius: 10%;

@@ -49,7 +49,7 @@ blogString +=			'<div class="blogTitle">';
 blogString +=				'<h2>' + currentBlog.title +'</h2>';
 blogString +=			'</div>';
 blogString +=			'<div class="blogText">';
-blogString +=				'<h3>' + currentBlog.blog+ '</h3>';
+blogString +=				'<p>' + currentBlog.blog+ '<p>';
 blogString +=			'</div>';
 blogString +=			'<div class="author-text">';
 blogString +=				'<p>' + currentBlog.author + '</p>';
