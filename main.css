@@ -450,6 +450,11 @@ a, p {
 	float: right;
 }
 
+.blogTitle {
+	font-family: 'Lato';
+	font-size: 19px;
+}
+
 body {
 	box-sizing: border-box;
 }
