@@ -138,6 +138,25 @@
 
 /*-----------Product Page-----------*/
 
+.products-header {
+	background-color: #96858f;
+	color: white;
+	font-family: 'Kavivanar';
+	margin: 5px;
+	margin-left: 25%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	padding: 5px;
+	width: 50%;
+	text-align: center;
+}
+
+.products-header h2 {
+	font-family: 'Kavivanar';
+	margin: 0;
+}
+
+
 .product {
 	width: 20%;
 	border: 2px solid slategray;
