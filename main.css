@@ -1,5 +1,5 @@
-/*--------------Nav-header--------------*/
-
+/*-------- NAV HEADER --------------- */
+/*------------------------------------*/
 
 #nav-header {
     display: flex;
@@ -78,7 +78,8 @@
 }
 
 
-/*--------------FOOTER--------------*/
+/*------------ FOOTER --------------- */
+/*------------------------------------*/
 
  footer {
     bottom: 10px;
@@ -89,7 +90,8 @@
 
  }
 
-/*--------------Homepage--------------*/
+/*------------ HOMEPAGE ------------- */
+/*------------------------------------*/
 
 #main-body {
 	display: flex;
@@ -125,23 +127,22 @@
 
 
 
-/*link boxes*/
+/*---------- LINK BOXES ------------- */
+/*------------------------------------*/
 
 #link-container {
 	display: flex;
-    /*align-items: baseline; */
-    justify-content: space-around;
-    flex-wrap: wrap; 
-    width: 80%;
-    height: 35%;
-    padding-left: 10%;
-    padding-top: 3%;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  width: 80%;
+  height: 35%;
+  padding-left: 10%;
+  padding-top: 3%;
 }
 
-/*#products-tile {
-	width:95%;
-}
-*/
+/*--------- PRODUCT TILES------------ */
+/*------------------------------------*/
+
 .small-box {
 	width: 15%;
 	height: 59%;
@@ -149,7 +150,7 @@
 	padding-left: 4px;
 	padding-right: 4px;
 	text-align: center;
-	box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+	box-shadow: 3px 3px grey;
 	background-color: rgba(255,255,255,0.7);
 	border-radius: 2%;
 }
@@ -167,7 +168,6 @@
 a.fa {
 	font-size: 70px;
 }
-
 
 a.fa, a.fa:link, a.fa:visited {
 	font-size: 70px;
@@ -188,8 +188,8 @@ a.fa:active {
  }
 
 
-/*large photo*/
-
+/*-------- LARGE PHOTOS------------ */
+/*------------------------------------*/
 #main-image {
 	width: 100%
 }
@@ -204,7 +204,8 @@ a.fa:active {
 	border-bottom: solid;
 }
 
-/*-----------Product Page-----------*/
+/*-------- PRODUCTS PAGE ------------ */
+/*------------------------------------*/
 
 .products-header {
 	background-color: #96858f;
@@ -257,7 +258,8 @@ a.fa:active {
 	text-transform: uppercase;
 }
 
-/* card layout area */
+/*------------- CARD LAYOUT---------- */
+/*------------------------------------*/
 
 #product-container {
 	display: flex;
@@ -273,7 +275,8 @@ section.product{
 }
 
 
-/* teacher images */
+/*-------- TEACHER IMAGES ----------- */
+/*------------------------------------*/
 
 .teacher-image {
 	margin-left: 23%;
@@ -285,7 +288,8 @@ section.product{
 	border-radius: 25%;
 }
 
-/* used image */
+/*-------- USED IMAGE --------------- */
+/*------------------------------------*/
 
 
 .product {
@@ -302,7 +306,8 @@ img.used-img {
 	border-color: none;
 }
 
-/* fonts & colors */
+/*-------- FONTS AND COLORS --------- */
+/*------------------------------------*/
 
 a, p {
 	font-family: 'Lato', sans-serif
@@ -336,6 +341,7 @@ a, p {
 
 .testimonial-card {
 	background-color: #d5d5d5;
+	border-radius: 10px;
 	color: #6d7993;
 	margin: 20px;
 	padding: 0;
@@ -347,6 +353,8 @@ a, p {
 
 .testimonial-student-info {
 	background-color: #96858f;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
 	color: white;
 	font-family: 'Kavivanar';
 	height: 15%;
@@ -419,6 +427,7 @@ a, p {
 
 .employee-info {
 	border: 1px solid lightgrey;
+	border-radius: 10px;
 	width: 300px;
 	height: 275px;
 }
@@ -426,9 +435,13 @@ a, p {
 .employee-name {
 	text-align: center;
 	background-color: #d5d5d5;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
 }
 
-/*About Page*/
+/*-------- ABOUT PAGE --------------- */
+/*------------------------------------*/
+
 #aboutTitle {
 	text-align: center;
 }
@@ -443,6 +456,7 @@ a, p {
 	flex-direction: row;
 	justify-content: space-between;
 }
+
 #aboutInfo {
 	width: 45%;
 	background-color: #96858f;
@@ -483,9 +497,31 @@ a, p {
 	padding-top: 0;
 }
 
+.aboutme-header {
+	background-color: #96858f;
+	color: white;
+	font-family: 'Kavivanar';
+	margin: 5px;
+	margin-left: 25%;
+	margin-top: 35px;
+	margin-bottom: 15px;
+	padding: 5px;
+	width: 50%;
+	text-align: center;
+}
 
+.aboutme-header h2 {
+	font-family: 'Kavivanar';
+	margin: 0;
+}
 
-/*-------------Blog Page------------*/
+.aboutme-header2 {
+	color: #6d7993;
+	margin: 0;
+}
+
+/*-------- BLOG PAGE --------------- */
+/*------------------------------------*/
 
 .ourBlog {
 	background-color: #96858f;
@@ -545,29 +581,9 @@ a, p {
 
 body {
 	box-sizing: border-box;
+	background-color: #f1f0f0;
 }
 
-/*-------------ABOUT ME PAGE------------*/
 
-.aboutme-header {
-	background-color: #96858f;
-	color: white;
-	font-family: 'Kavivanar';
-	margin: 5px;
-	margin-left: 25%;
-	margin-top: 35px;
-	margin-bottom: 15px;
-	padding: 5px;
-	width: 50%;
-	text-align: center;
-}
 
-.aboutme-header h2 {
-	font-family: 'Kavivanar';
-	margin: 0;
-}
 
-.aboutme-header2 {
-	color: #6d7993;
-	margin: 0;
-}
