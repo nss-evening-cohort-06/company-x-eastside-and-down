@@ -28,12 +28,6 @@ allBlogs.push(blog1);
 allBlogs.push(blog2);
 allBlogs.push(blog3);
 
-
-// allBlogs.push({image:"", imageAlt: "", title: "", blog: "", author: ""});
-// allBlogs.push({image:"", imageAlt: "", title: "", blog: "", author: ""});
-
-// console.log(allblogs);
-
 var blogsContainer = document.getElementById("blogsCards");
 
 for (var i = 0; i < allBlogs.length; i++) {
