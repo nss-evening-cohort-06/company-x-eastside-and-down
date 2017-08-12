@@ -422,34 +422,32 @@ a, p {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	float: right;
 }
 
 .blogSection img {
-	width: 80%;
-	height: 80%;
-
+	width: 50%;
+	height: 50%;
+	margin-right: 3%;
+	border-radius: 10%;
+	float: left;
 }
 
 .blogSection {
-	max-width: 300px;
+	max-width: 80%;
 	border: 2px solid slategray;
 	margin: 2%;
 	padding: 2%;
+	border-radius: 10%;
+	background-color: #96858f;
+	color: white;
 }
 
-
-.blog-container {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-
-}
-
-.blog-container {
-	background-color: white;
-	background-size: 500px;
-	background-position: center center;
-	margin: 19% 0%;
+.blog-content {
+	font-family: 'Lato';
+	font-size: 10px;
+	display: inline-block;
+	float: right;
 }
 
 body {
