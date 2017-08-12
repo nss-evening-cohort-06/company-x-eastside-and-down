@@ -1,5 +1,6 @@
 /*--------------Nav-header--------------*/
 
+
 #nav-header {
     display: flex;
     align-items: baseline; 
@@ -81,15 +82,17 @@
 
 #main-body {
 	display: flex;
-    /*align-items: baseline; */
-
     flex-wrap: wrap; 
     width: 100%;
     max-height: 100%;
-    margin: 30px 0 30px 0;
-/*    box-shadow: 0 2px 0 rgba(93, 96, 99, .1);
-    background-color: white;*/
-
+    height: 800px;
+    margin: 0;
+    padding-top: 10px;
+    background-color: #f1f0f0;
+    background-image: url("./images/sleepingInClass.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: 100%
 }
 
 /*link boxes*/
@@ -97,27 +100,58 @@
 #link-container {
 	display: flex;
     /*align-items: baseline; */
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap; 
-    margin: 0 0 0 25px;
-    width: 40%;
-
+    width: 80%;
+    height: 35%;
+    padding-left: 10%;
+    padding-top: 3%;
 }
 
+/*#products-tile {
+	width:95%;
+}
+*/
 .small-box {
-	width: 33%;
+	width: 15%;
+	height: 48%;
+	margin: 0 4px 10px 4px;
+	padding-left: 4px;
+	padding-right: 4px;
 	text-align: center;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 2%;
 }
 
 
 .image-link {
 	display: block;
+	padding-top: 6%;
 }
 
-.image-link img{
-	display: block;
-	margin:auto;
+a.fa {
+	font-size: 70px;
 }
+
+
+a.fa, a.fa:link, a.fa:visited {
+	font-size: 70px;
+	color: rgba(93, 96, 99, .3);
+	text-decoration: none;
+	text-transform: lowercase;
+}
+
+a.fa:hover {
+	color: #96858f; 
+}
+
+a.fa:active {
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: -5px; 
+	margin-right: -5px; 
+ }
 
 
 /*large photo*/
@@ -127,7 +161,7 @@
 }
 
 #main-image-container {
-	width: 40%;
+	width: 80%;
 	padding-left: 10%;
 }
 
@@ -416,5 +450,9 @@ a, p {
 	background-size: 500px;
 	background-position: center center;
 	margin: 19% 0%;
+}
+
+body {
+	box-sizing: border-box;
 }
 
