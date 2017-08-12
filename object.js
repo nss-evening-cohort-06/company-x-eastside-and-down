@@ -3,7 +3,7 @@ var allProducts = [];
 	var product1 = {
 
 		name:"Zoe",
-		description:"Description goes here",
+		description:"Vows to never become a crap teacher. Also may accept pies as a bribe.",
 		price:"4",
 		imagePath:"./images/zoe.jpg",
 		link:"./images/zoe.jpg",
@@ -12,7 +12,7 @@ var allProducts = [];
 
 	var product2 = {
 		name:"Lauren",
-		description:"Description goes here",
+		description:"Takes a patient and caring approach to reach out and touch students on a daily basis.",
 		price:"10",
 		imagePath:"./images/lauren.jpg",
 		link:"./images/lauren.jpg",
@@ -21,7 +21,7 @@ var allProducts = [];
 
 	var product3 = {
 		name:"Callan",
-		description:"Description goes here",
+		description:"Always excited to help which goes far in our journey to touch our students.",
 		price:"10",
 		imagePath:"./images/callan.jpg",
 		link:"./images/callan.jpg",
@@ -29,8 +29,8 @@ var allProducts = [];
 	};
 
 	var product4 = {
-		name:"Creepy Teacher",
-		description:"Description goes here",
+		name:"Mr. Strickland",
+		description:"New here to Teacher Touch Jack is determined to make a good impression touching different students around campus.",
 		price:"100",
 		imagePath:"./images/stock-headshot1.jpg",
 		link:"./images/stock-headshot1.jpg",
@@ -39,8 +39,8 @@ var allProducts = [];
 	};
 
 	var product5 = {
-		name:"Old Teacher",
-		description:"",
+		name:"Mr. O'Leery",
+		description:"Touching students with his old man tales",
 		price:"200",
 		imagePath:"./images/OldMan.jpg",
 		link:"./images/OldMan.jpg",
@@ -48,8 +48,8 @@ var allProducts = [];
 	};
 
 	var product6 = {
-		name:"Funny Teacher",
-		description:"Description goes here",
+		name:"Mr. Pempen",
+		description:"Laughter and learning combined to touch countless students",
 		price:"200",
 		imagePath:"./images/katW.jpeg",
 		link:"./images/katW",
@@ -57,18 +57,18 @@ var allProducts = [];
 	};
 
 	var product7 = {
-		name:"Newbie Teacher",
-		description:"Description goes here",
-		price:"5pies/perClass",
+		name:"Mr.Young",
+		description:"The passion to teach keeps him feeliing young. New to the scene Mr.Young is ready to show he wasn't born yesterday. Ready to touch lives",
+		price:"200",
 		imagePath:"./images/baby.jpg",
 		link:"",
 		used: false 
 	};
 
 	var product8 = {
-		name:"Boring Teacher",
-		description:"Description goes here",
-		price:"5pies/perClass",
+		name:"Mr. Snell",
+		description:"Although lacking in energy the drive to reach out and touch helps Mr. Snell to connect with our students.",
+		price:"200",
 		imagePath:"./images/benStein.jpg",
 		link:"15",
 		used: false 
