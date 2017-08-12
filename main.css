@@ -100,11 +100,30 @@
     margin: 0;
     padding-top: 10px;
     background-color: #f1f0f0;
-    background-image: url("./images/sleepingInClass.jpg");
+    background-image: url("./images/sleepingInClass2.png");
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     background-size: 100%
 }
+
+
+#title-container{
+	width: 100%;
+}
+
+#title{
+	text-align: center;
+}
+
+#title h1{
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 7em;
+	color: snow;
+	text-shadow: 3px 3px grey;
+}
+
+
+
 
 /*link boxes*/
 
