@@ -423,10 +423,24 @@ a, p {
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-between;
-
 }
 #aboutInfo {
 	width: 45%;
+	background-color: #96858f;
+	color: white;
+	border-radius: 5%;
+}
+#aboutInfo:hover {
+	font-weight: bold;
+}
+#contactInfo:hover {
+	font-weight: bold;
+}
+#contactInfo {
+	background-color: #96858f;
+	color: white;
+	border-radius: 5%;
+
 }
 
 #about-contact h3 {
