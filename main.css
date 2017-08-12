@@ -409,7 +409,7 @@ a, p {
 	background-color: #d5d5d5;
 }
 
-
+/*About Page*/
 #aboutTitle {
 	text-align: center;
 }
@@ -422,7 +422,15 @@ a, p {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
+
+}
+#aboutInfo {
+	width: 45%;
+}
+
+#about-contact h3 {
+	align-items: center;
 }
 
 .employee-name h2 {
